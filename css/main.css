@@ -85,6 +85,10 @@ a {
     }
 }
 
+.dis-flex {
+    display: flex;
+}
+
 .hidden {
     display: none;
 }
@@ -405,6 +409,20 @@ a {
     opacity: 0
 }
 
+.inview-element.arche-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inview-element.arche-home .widget-block {
+    padding: 6px 30px;
+}
+
+.inview-element.arche-home .widget-block a {
+    margin-bottom: 0;
+}
+
 .inview-element.inview {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -514,9 +532,23 @@ a.read-more::before {
     backface-visibility: hidden
 }
 
+.parent .nav-head {
+    padding: 0;
+    right: 0;
+}
+
+.parent .nav-head img {
+    width: 60px;
+}
+
+.parent.action .nav-head img {
+    width: 100px;
+}
+
 .parent.action .nav-head {
     padding: 25px;
     position: fixed;
+    right: 10px;
     -webkit-transform-origin: top right;
     transform-origin: top right;
     -webkit-transform: rotate(0) translateX(11px);
@@ -702,7 +734,7 @@ img.brand {
 .nav-head {
     padding: 25px;
     position: fixed;
-    right: 11px;
+    right: 10px;
     -webkit-transform-origin: top right;
     transform-origin: top right;
     -webkit-transform: rotate(-90deg) translateX(0);
@@ -804,6 +836,10 @@ img.brand {
     transition: all ease .3s
 }
 
+.nav-body ul.terse-navbar li a.big-nav {
+    font-size: 16px
+}
+
 .nav-body ul.terse-navbar li:hover a.big-nav {
     color: #ef5744
 }
@@ -828,7 +864,7 @@ img.brand {
 
 .nav-body ul.terse-navbar li a {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Montserrat';
     color: #fff;
     text-transform: capitalize;
@@ -1895,7 +1931,7 @@ img.brand {
 }
 
 .widget-block.video:hover .video-layer {
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 0.1)
 }
 
 #VideoPlayer {
@@ -3585,7 +3621,7 @@ img.brand {
 }
 
 .widget-block.news-sidebar-item .n-list li a i {
-    font-size: 16px;
+    font-size: 20px;
     padding: 11px;
     border-radius: 50%;
     background-color: #161616;
