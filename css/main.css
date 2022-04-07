@@ -189,7 +189,8 @@ a {
 }
 
 .section-bg-black {
-    background-color: #090909
+    background-color: #090909;
+    background-color: rgba(9, 9, 9, 0.6);
 }
 
 .section-bg-dark {
@@ -603,7 +604,7 @@ a.read-more::before {
 
 .terse-navigation-menu {
     background-color: #111;
-    width: 150px;
+    width: 128px;
     height: 100vh;
     position: fixed;
     top: 0;
