@@ -83,6 +83,15 @@ a {
     .section-title-block .section-title {
         font-size: 50px;
     }
+    .inview-element.location {
+        height: 288px !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .inview-element.location {
+        height: 415px !important;
+    }
 }
 
 .dis-flex {
@@ -434,6 +443,13 @@ a {
     width: 100%
 }
 
+.inview-element.location {
+    border: 1px solid #111;
+    border-radius: 10px;
+    background-image: url('../img/location.jpg');
+    background-size: cover;
+}
+
 .cursorChild {
     width: 20px;
     height: 20px;
@@ -547,9 +563,9 @@ a.read-more::before {
 }
 
 .parent.action .nav-head {
-    padding: 25px;
+    padding: 15px;
     position: fixed;
-    right: 10px;
+    right: 11px;
     -webkit-transform-origin: top right;
     transform-origin: top right;
     -webkit-transform: rotate(0) translateX(11px);
@@ -3960,7 +3976,7 @@ img.brand {
     text-align: center;
     color: #8d8d8d;
     font-size: 14px;
-    margin-left: 50%;
+    margin-left: 30px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
 }
@@ -3969,7 +3985,7 @@ img.brand {
     width: 100%;
     height: 20px;
     padding: 25px 0 10px 0;
-    text-align: center;
+    text-align: left;
     color: #fff;
     background-color: transparent;
     border: 0;
