@@ -566,10 +566,12 @@ a.read-more::before {
     padding: 15px;
     position: fixed;
     right: 11px;
-    -webkit-transform-origin: top right;
-    transform-origin: top right;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
     -webkit-transform: rotate(0) translateX(11px);
-    transform: rotate(0) translateX(11px)
+    transform: rotate(0deg) translateX(11px);
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
 }
 
 .parent.action .nav-icon {
@@ -752,12 +754,12 @@ img.brand {
     padding: 25px;
     position: fixed;
     right: 10px;
-    -webkit-transform-origin: top right;
-    transform-origin: top right;
-    -webkit-transform: rotate(-90deg) translateX(0);
-    transform: rotate(-90deg) translateX(0);
-    -webkit-transition: all ease .4s;
-    transition: all ease .4s;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: rotate(0) translateX(60px);
+    transform: rotate(0) translateX(60px);
+    -webkit-transition: all ease .6s;
+    transition: all ease .6s;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden
 }
