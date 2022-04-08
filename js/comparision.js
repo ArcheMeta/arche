@@ -1,4 +1,4 @@
-console.log('非源码，仅用作演示。下载源码请访问：HTTP://www.bootstrapmb.com');console.log('非源码，仅用作演示。下载源码请访问：HTTP://WWW.bootstrapmb.com');class BeforeAfter {
+class BeforeAfter {
     constructor(enteryObject) {
 
         const beforeAfterContainer = document.querySelector(enteryObject.id);
@@ -47,4 +47,4 @@ console.log('非源码，仅用作演示。下载源码请访问：HTTP://www.bo
         })
 
     }
-}console.log('非源码，仅用作演示。下载源码请访问：HTTP://WWW.bootstrapmb.com');console.log('非源码，仅用作演示。下载源码请访问：HTTP://www.bootstrapmb.com');
+}
