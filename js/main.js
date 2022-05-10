@@ -1,4 +1,7 @@
 window.addEventListener('load', function () {
+  /* setTimeout(function(){
+    window.location.href = '404.html'
+  }) */
   document.getElementById("preloader").classList.add("fadehide");
 })
 
